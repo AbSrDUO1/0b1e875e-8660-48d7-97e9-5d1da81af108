@@ -39,9 +39,9 @@ const portfolioSection = () => (
 const skillsSection = () => (
   <SimpleStepsBento
     items={[
-      { title: 'JavaScript', description: 'Proficient in ES6+', icon: <Image src='/images/logo.svg' alt='JavaScript' width={100} height={100} /> },
-      { title: 'React', description: 'Building dynamic UIs', icon: <Image src='/images/logo-dot.svg' alt='React' width={100} height={100} /> },
-      { title: 'Design', description: 'Futuristic and user-centric designs', icon: <Image src='/images/logo.svg' alt='Design' width={100} height={100} /> }
+      { title: 'JavaScript', description: 'Proficient in ES6+' },
+      { title: 'React', description: 'Building dynamic UIs' },
+      { title: 'Design', description: 'Futuristic and user-centric designs' }
     ]}
     className='mb-16'
   />

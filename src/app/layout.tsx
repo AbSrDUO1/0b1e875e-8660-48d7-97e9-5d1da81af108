@@ -5,7 +5,7 @@ import './globals.css';
 const interTight = Inter_Tight({
   variable: '--font-inter-tight',
   subsets: ['latin'],
-  weight: [400, 600]
+  weight: [500, 600]
 });
 
 export const metadata: Metadata = {
@@ -15,9 +15,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang='en'>
       <body className={`${interTight.variable} antialiased`}>{children}</body>
